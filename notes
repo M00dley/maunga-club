@@ -1,0 +1,161 @@
+Home
+
+
+body {
+  /**border-box: will set a padding without changing a div size**/
+  margin: 0;
+  padding: 0;
+}
+
+.nav_igation {
+  background-color: rgb(37, 99, 171); /*rgb(37, 80, 130)*/
+  width: 100%;
+  height: 68px;
+  display: flex;
+  margin: 0%;
+  justify-content: left;
+}
+
+.maunga_logo {
+  width: 15%;
+  height: 100%;
+  background-color: transparent;
+}
+
+.nav_igation ul {
+  /*un-orderd list*/
+  display: flex;
+  align-items: center;
+  padding-left: 7%;
+}
+
+.nav_igation ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 15%;
+  font-size: 19px;
+}
+
+.nav_igation ul li a {
+  text-decoration: none;
+  color: rgb(119, 163, 215); /**#003b63)**/
+}
+
+.nav_igation ul li a:hover {
+  color: rgba(58, 65, 102, 0.868); /**(192, 23, 77, 0.868)**/
+}
+
+h1 {
+  text-decoration: none;
+  color: rgb(119, 163, 215);
+  font-size: 19px;
+}
+
+.purple_outline_nav {
+  background-color: rgba(27, 38, 92, 0.868); 
+  width: 100%;
+  height: 6px;
+}
+
+.home_bg {
+  width: 100%;
+  height: 460px;
+  background-color: transparent;
+}
+
+.info_start_home {
+  width: 90%;
+  height: 400px;
+  background-color: transparent;
+  margin-left: 5%;
+  margin-top: 3px;
+  outline-style:groove;
+  outline-color: rgba(58, 71, 134, 0.868);
+  outline-width: 3px;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+/**.home_page_hero_img{
+    background-image: url(/images/kakapo/cabin_exterior_copy_resize.jpg);
+    width: 100%;
+    height: 763px;
+    background-size: 100%;
+    position:relative; 
+    align-items: center; **/
+
+/*background-image: url();
+  width: 100%;
+  height: 563px;
+  background-size:  cover;
+  position: relative; 
+  align-items: center;*/
+
+
+
+
+  _________________________________________
+
+  form {
+    /*margin-top: 20rem;*/
+    width: 1263px;
+    display: flex;
+    background-color: burlywood;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+  }
+  
+  .EVC__Form-Container__Left {
+    width: 50%;
+  }
+  
+  .EVC__Form-Container__Left h2 {
+    text-align: center;
+    font-size: 4rem;
+    color: #000;
+  }
+  
+  .EVC__Form-Container__Left #FirstName,
+  .EVC__Form-Container__Left #LastName,
+  .EVC__Form-Container__Left #email,
+  .EVC__Form-Container__Left #YearLevel {
+    padding: 1rem;
+    width: 100%;
+    border-top: none;
+    border-right: none;
+    border-bottom: 2px #000 solid;
+    margin-top: 1rem;
+    height: 1.5rem;
+    border-radius: 3px;
+    background-color: transparent;
+    color: #000;
+  }
+  
+  .EVC__Form-Container__Left #FirstName:placeholder,
+  .EVC__Form-Container__Left #LastName:placeholder,
+  .EVC__Form-Container__Left #email:placeholder,
+  .EVC__Form-Container__Left #YearLevel:placeholder {
+    color: #000;
+  }
+  
+  .EVC__Form-Container__Left #submit {
+    width: 80%;
+    height: 2rem;
+    color: #000;
+    background-color: transparent;
+    border: 2px #000 solid;
+    margin-left: 10%;
+    margin-top: 1rem;
+    transition: all 0.3s ease 0s;
+  }
+  
+  .EVC__Form-Container__Left #submit:hover {
+    opacity: 0.5;
+    cursor: pointer;
+  }

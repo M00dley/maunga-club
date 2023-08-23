@@ -1,0 +1,292 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: snow;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  /**max-width: 1000px;**/
+  position: relative;
+  margin-left: 100px;
+  height: 450px;
+  width: 1060px;
+  background-image: url(/images/pukeko/chalet_exterior.jpg);
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: color;
+  /**background-color:  #f1eded;**/
+  /**background-image: url(/images/index_photos/Maunga_Club_white.png);**/
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  background-color: rgb(200, 213, 228);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(
+    158,
+    196,
+    232,
+    0.801
+  ); /** does nothing bue to above the same, visiblity was poor **/
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: black;
+  font-size: 1.2rem;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: slategray;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: rgb(0, 0, 0);
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 10;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+img {
+  height: 450px;
+  width: 100%;
+}
+
+.mini_three_gall_page_two_container {
+  background-color: rgb(200, 213, 228);
+  width: 100%;
+  height: 500px;
+  /**display: flex;__________________might_need_this**/
+  padding-left: 10%;
+}
+
+.first_mini_gall_p_two {
+  background-color: transparent;
+  width: 88.5%;
+  height: 64%;
+}
+
+.pushing_down_info_box_one {
+  background-color: transparent;
+  width: 100%;
+  height: 60px;
+  padding-left: 44.5%;
+}
+
+h3 {
+  color: #2a2e60;
+  font-size: 2.3rem;
+  text-decoration: underline;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+/**______gall_box_one___________**/
+.holding_for_flex {
+  height: 80%;
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+}
+
+.info_box_one_p_two {
+  background-color: transparent;
+  width: 25%;
+  height: 100%;
+  margin-right: 10%;
+}
+
+.actual_images_box_one {
+  height: 45%;
+  width: 100%;
+  background-color: transparent;
+}
+
+.inside_ibo_text {
+  background-color: transparent;
+  width: 100%;
+  height: 55%;
+  display: flex; /**display flex has taken the space away from the box exploding**/
+  padding-left: 15px;
+}
+
+/**______gall_box_two__________**/
+
+.info_box_two_p_two {
+  background-color: transparent;
+  width: 30%;
+  height: 100%;
+  margin-right: 10%;
+}
+
+.actual_images_box_two {
+  height: 45%;
+  width: 100%;
+  background-color: transparent;
+}
+
+.inside_ibt_text {
+  background-color: transparent;
+  width: 100%;
+  height: 55%;
+  display: flex;
+  padding-left: 30px;
+}
+
+/**______gall_box_three__________**/
+
+.info_box_three_p_two {
+  background-color: transparent;
+  width: 25%;
+  height: 100%;
+}
+
+.actual_images_box_three {
+  height: 45%;
+  width: 100%;
+  background-color: transparent;
+}
+
+.inside_ibth_text {
+  background-color: transparent;
+  width: 100%;
+  height: 55%;
+  display: flex;
+  padding-left: 30px;
+}
+
+p1 {
+  font-size: 1.3rem;
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+p2 {
+  font-size: 1.3rem;
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+p3 {
+  font-size: 1.3rem;
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+p99 {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  padding-left: 40%;
+  text-align: center;
+  padding-top: 1.4rem;
+}
+
+.sign_up_button_div_container {
+  background-color: transparent;
+  width: 88.5%;
+  height: 25%;
+  padding-left: 34.5%;
+  padding-top: 20px;
+}
+
+.contact_box_p_two {
+  background-color: transparent;
+  width: 40%;
+  height: 70%;
+  outline-style: groove;
+  outline-color: rgb(115, 141, 173);
+  outline-width: 0.8rem;
+  padding-top: 0.1px;
+}
+
+.contact_box_p_two ul {
+  display: flex;
+  align-items: center;
+}
+
+.contact_box_p_two ul li {
+  font-size: 2.3rem;
+  list-style-type: none;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.contact_box_p_two ul li a {
+  text-decoration: none;
+  color: #2a2e60; /**#003b63)**/
+}
+
+.contact_box_p_two ul li a:hover {
+  color: rgb(67, 101, 107); /**(192, 23, 77, 0.868)**/
+}
+
+/**h2 {
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      text-decoration: none;
+      font-size: 1.6rem;
+      color:#2a2e60;
+    }
+    
+    p1 {
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: 1rem;
+    
+    }
+    
+    
+    **/

@@ -1,0 +1,236 @@
+body {
+  /**border-box: will set a padding without changing a div size**/
+  margin: 0;
+  padding: 0;
+}
+
+::selection {
+  background-color: rgba(88, 123, 163, 0.705); /*or rgba(135, 117, 180, 0.868)*/
+}
+
+.nav_igation {
+  background-color: rgb(88,123,163); /** rgba(37, 100, 171, 0.842); /*rgb(37, 80, 130)*/
+  width: 100%;
+  height: 68px;
+  display: flex;
+  margin: 0%;
+  justify-content: left;
+}
+
+.maunga_logo {
+  width: 15%;
+  height: 100%;
+  background-color: transparent;
+}
+
+.nav_igation ul {
+  /*un-orderd list*/
+  display: flex;
+  align-items: center;
+  padding-left: 5.5%;
+}
+
+.nav_igation ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 18%;
+  font-size: 19px;
+}
+
+.nav_igation ul li a {
+  text-decoration: none;
+  color: rgb(205, 222, 241); /**#003b63)**/
+}
+
+.nav_igation ul li a:hover {
+  color: rgb(119, 154, 159); /**(192, 23, 77, 0.868)**/
+}
+
+h1 {
+  text-decoration: none;
+  color: rgb(205, 222, 241);
+  font-size: 19px;
+}
+
+.purple_outline_nav {
+  background-color: rgba(30, 41, 97, 0.783); /**(27, 38, 92, 0.868)**/
+  width: 100%;
+  height: 6px;
+}
+
+.home_bg {
+  width: 100%;
+  height: 460px;
+  background-color: transparent;
+}
+
+.info_start_home {
+  width: 90%;
+  height: 550px;
+  background-color: rgb(200, 213, 228);
+  margin-left: 5%;
+  /**display: flex;**/
+
+  /**outline-style:groove;
+  outline-color: rgba(58, 71, 134, 0.868);
+  outline-width: 3px;
+  margin-bottom: 10px;**/
+}
+
+.gray_contianer_home {
+  background-color: transparent;
+  height: 350px;
+  width: 100%;
+  display: flex;
+}
+
+.divide_home_p_img_left {
+  background-color: transparent;
+  height: 100%;
+  width: 50%;
+  
+}
+
+.title_under_hero_img_mc {
+  background-color: transparent;
+  height: 40%;
+  width: 100%;
+  display: flex;
+  padding-left: 30%;
+}
+
+h4 {
+  color: #2a2e60;
+  font-size: 2.3rem;
+  text-decoration: underline;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.under_mc_title_p {
+  background-color: transparent;
+  width: 100%;
+  height: 48%;
+  padding-left: 6px;
+}
+
+p98 {
+  font-size: 1.1rem;
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.extra_text_for_h_page{
+  background-color: transparent;
+  width: 100%;
+  height: 12%;
+  display: flex;
+  padding-left: 6px;
+}
+
+
+p97 {
+  font-size: 1.1rem;
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.divide_home_p_img_right {
+  background-color: transparent;
+  height: 100%;
+  width: 50%;
+}
+
+.holding_img_home_club {
+  background-color: transparent;
+  height: 80%;
+  width: 80%;
+  margin: 40px;
+  display: flex;
+}
+
+
+.contact_home_link {
+  background-color: transparent;
+  width: 60.4%;
+  height: 200px;
+  padding-left: 450px;
+  padding-top: 50px;
+}
+
+.contact_box_p_two{
+  background-color: transparent;
+  width: 34%;
+  height: 45%;
+  outline-style:groove;
+  outline-color: rgb(115, 141, 173);
+  outline-width: 0.8rem;
+  padding-top: 0.3rem;
+}
+
+.contact_box_p_two ul {
+  display: flex;
+  align-items: center;
+}
+
+.contact_box_p_two ul li {
+  font-size: 2.3rem;
+  list-style-type: none;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.contact_box_p_two ul li a {
+  text-decoration: none;
+  color: #2a2e60; /**#003b63)**/
+}
+
+.contact_box_p_two ul li a:hover {
+  color: rgb(67, 101, 107); /**(192, 23, 77, 0.868)**/
+}
+
+
+.another_purple_outline_footer {
+  background-color: rgba(30, 41, 97, 0.783); /**(27, 38, 92, 0.868)**/
+  width: 100%;
+  height: 6px;
+}
+
+.footer {
+  background-color: rgb(95, 132, 174);
+  height: 68px;
+  width: 100%;
+  display: flex;
+}
+
+p99{
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  padding-left: 40%;
+  text-align: center;
+  padding-top: 1.4rem;
+}
+
+/**.home_page_hero_img{
+    background-image: url(/images/kakapo/cabin_exterior_copy_resize.jpg);
+    width: 100%;
+    height: 763px;
+    background-size: 100%;
+    position:relative; 
+    align-items: center; **/
+
+/*background-image: url();
+  width: 100%;
+  height: 563px;
+  background-size:  cover;
+  position: relative; 
+  align-items: center;
+  
+.another_dot_text {
+  cursor: pointer;
+  height: 16px;
+  width: 22px;
+  background-color: rgb(192, 189, 189);
+  border-radius: 50%;
+}
+  
+  */
