@@ -113,7 +113,7 @@ h4 {
   padding-left: 6px;
 }
 
-p98 {
+.under_mc_title_p p {
   font-size: 1.1rem;
   color: black;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -128,7 +128,7 @@ p98 {
 }
 
 
-p97 {
+.extra_text_for_h_page p{
   font-size: 1.1rem;
   color: black;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -201,13 +201,13 @@ p97 {
   display: flex;
 }
 
-p99{
+.footer p{
   text-decoration: none;
   color: white;
   font-size: 1rem;
   padding-left: 40%;
   text-align: center;
-  padding-top: 1.4rem;
+  padding-top: 0.6rem;
 }
 
 /**.home_page_hero_img{
