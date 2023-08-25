@@ -153,27 +153,29 @@ h4 {
   background-color: transparent;
   width: 60.4%;
   height: 200px;
-  padding-left: 450px;
+  padding-left: 39.6%;
   padding-top: 50px;
 }
 
 .contact_box_p_two{
   background-color: transparent;
-  width: 34%;
-  height: 45%;
+  width: 32%;
+  height: 40%;
   outline-style:groove;
   outline-color: rgb(115, 141, 173);
   outline-width: 0.8rem;
   padding-top: 0.3rem;
+  justify-items: left;
 }
 
 .contact_box_p_two ul {
   display: flex;
   align-items: center;
+  position: relative;
 }
 
 .contact_box_p_two ul li {
-  font-size: 2.3rem;
+  font-size: 2rem;
   list-style-type: none;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
