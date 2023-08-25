@@ -1,6 +1,7 @@
 form {
   /*margin-top: 20rem;*/
-  width: 1263px;
+  /* width: 1263px; */
+  width: 100%;
   display: flex;
   background-color: rgb(200, 213, 228);
   align-items: center; /*could have some to do with it*/
@@ -11,12 +12,11 @@ form {
 
 .Form-Container__Left {
   width: 50%;
-  
 }
 
 .Form-Container__Left h2 {
   text-align: center;
-  font-size: 4rem;
+  font-size: 3.4rem;
   color: #000;
   padding-top: 20px;
 }
@@ -30,7 +30,7 @@ form {
   border-top: none;
   border-right: none;
   border-bottom: 2px #000 solid;
-  margin-top: 1rem;
+  margin-top: 2.3rem;
   height: 1rem;
   border-radius: 3px;
   background-color: transparent;
