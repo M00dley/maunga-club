@@ -19,7 +19,7 @@ body {
   background-size:cover;
   background-position: center;
   background-blend-mode:color;
-  
+
   /**background-color:  #f1eded;**/
   /**background-image: url(/images/index_photos/Maunga_Club_white.png);**/
 }
@@ -221,14 +221,6 @@ p3 {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-p99{
-  text-decoration: none;
-  color: white;
-  font-size: 1rem;
-  padding-left: 40%;
-  text-align: center;
-  padding-top: 1.4rem;
-}
 
 .sign_up_button_div_container{
   background-color: transparent;
@@ -272,23 +264,4 @@ p99{
 
 
 
-
-
-
-
-/**h2 {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  text-decoration: none;
-  font-size: 1.6rem;
-  color:#2a2e60;
-}
-
-p1 {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 1rem;
-
-}
-
-
-**/
 
