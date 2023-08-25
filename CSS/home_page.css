@@ -8,6 +8,8 @@ body {
   background-color: rgba(88, 123, 163, 0.705); /*or rgba(135, 117, 180, 0.868)*/
 }
 
+* {box-sizing:border-box}
+
 .nav_igation {
   background-color: rgb(88,123,163); /** rgba(37, 100, 171, 0.842); /*rgb(37, 80, 130)*/
   width: 100%;
@@ -161,7 +163,7 @@ h4 {
 
 .contact_box_p_two{
   background-color: transparent;
-  width: 32%;
+  width: 70%;
   height: 40%;
   outline-style:groove;
   outline-color: rgb(115, 141, 173);
@@ -177,7 +179,7 @@ h4 {
 }
 
 .contact_box_p_two ul li {
-  font-size: 2rem;
+  font-size: 1.3rem;
   list-style-type: none;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
