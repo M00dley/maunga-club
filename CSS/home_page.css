@@ -14,7 +14,9 @@ body {
   height: 68px;
   display: flex;
   margin: 0%;
-  justify-content: left;
+  padding-left: 5%;
+  padding-top: 5px;
+  /* padding-left: 5.5%; */
 }
 
 .maunga_logo {
@@ -27,7 +29,7 @@ body {
   /*un-orderd list*/
   display: flex;
   align-items: center;
-  padding-left: 5.5%;
+  padding-left: 0%;
 }
 
 .nav_igation ul li {
@@ -212,27 +214,3 @@ h4 {
   padding-top: 0.6rem;
 }
 
-/**.home_page_hero_img{
-    background-image: url(/images/kakapo/cabin_exterior_copy_resize.jpg);
-    width: 100%;
-    height: 763px;
-    background-size: 100%;
-    position:relative; 
-    align-items: center; **/
-
-/*background-image: url();
-  width: 100%;
-  height: 563px;
-  background-size:  cover;
-  position: relative; 
-  align-items: center;
-  
-.another_dot_text {
-  cursor: pointer;
-  height: 16px;
-  width: 22px;
-  background-color: rgb(192, 189, 189);
-  border-radius: 50%;
-}
-  
-  */
