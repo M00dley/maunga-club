@@ -43,12 +43,12 @@ body {
 }
 
 .nav_igation ul li a:hover {
-  color: rgb(119, 154, 159); /**(192, 23, 77, 0.868)**/
+  color: rgb(238, 244, 245); /**(192, 23, 77, 0.868)**/
 }
 
 h1 {
   text-decoration: none;
-  color: rgb(205, 222, 241);
+  color: rgb(193, 223, 255);
   font-size: 19px;
 }
 
